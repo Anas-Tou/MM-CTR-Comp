@@ -2,8 +2,6 @@
 
 A two-stage deep learning solution for Click-Through Rate (CTR) prediction combining CLIP embeddings with Transformer-DCN architecture for the WWW 2025 Multimodal CTR competition.
 
-![Model Architecture](https://via.placeholder.com/1200x600/1a1a2e/ffffff?text=Model+Architecture+Diagram)
-
 ## 📋 Table of Contents
 
 - [Overview](#overview)
