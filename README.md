@@ -11,7 +11,6 @@ A two-stage deep learning solution for Click-Through Rate (CTR) prediction combi
 - [Dataset](#dataset)
 - [Usage](#usage)
 - [Model Performance](#model-performance)
-- [Project Structure](#project-structure)
 - [Customization](#customization)
 - [Contributing](#contributing)
 - [License](#license)
@@ -218,39 +217,6 @@ jupyter notebook NoteBook.ipynb
 - **CLIP Embedding Generation:** ~11 minutes (91K images, Dual T4)
 - **Model Training:** ~16 minutes per epoch
 - **Total Training Time:** ~1.5 hours
-
-## 📁 Project Structure
-```
-clip-enhanced-ctr/
-├── NoteBook.ipynb                 # Main training notebook
-├── run_expid.py                   # Training script
-├── prediction.py                  # Inference script
-├── fuxictr_version.py             # Version check
-├── generate_embeddings.py         # CLIP embedding extraction
-├── requirements.txt               # Dependencies
-├── README.md                      # This file
-├── src/
-│   ├── __init__.py
-│   ├── mmctr_dataloader.py        # Custom data loader
-│   ├── Transformer_DCN.py         # Model architecture
-│   ├── DIN.py                     # Alternative model
-│   └── Transformer_DCN_Quant.py   # Quantized variant
-├── config/
-│   └── Transformer_DCN_microlens_mmctr_tuner_config_01/
-│       ├── dataset_config.yaml    # Data configuration
-│       └── model_config.yaml      # Model hyperparameters
-├── data/
-│   └── MicroLens_1M_x1/
-│       ├── feature_map.json       # Feature schema
-│       ├── item_info.parquet      # Original item data
-│       └── item_info_task1.parquet # Enhanced item data with CLIP
-├── checkpoints/                   # Saved models
-│   └── MicroLens_1M_x1/
-│       └── Transformer_DCN_*.model
-└── submission/                    # Prediction outputs
-    ├── prediction.csv
-    └── *.zip
-```
 
 ## 🔧 Customization
 
