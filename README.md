@@ -5,7 +5,7 @@ A two-stage deep learning solution for Click-Through Rate (CTR) prediction combi
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Architecture](#architecture)
+- [Architecture](#Architecture)
 - [Features](#features)
 - [Installation](#installation)
 - [Dataset](#dataset)
