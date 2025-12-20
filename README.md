@@ -2,17 +2,6 @@
 
 A two-stage deep learning solution for Click-Through Rate (CTR) prediction combining CLIP embeddings with Transformer-DCN architecture for the WWW 2025 Multimodal CTR competition.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#Architecture)
-- [Features](#features)
-- [Installation](#installation)
-- [Dataset](#dataset)
-- [Usage](#usage)
-- [Model Performance](#model-performance)
-- [Customization](#customization)
-
 ## 🔍 Overview
 
 This project implements an advanced CTR prediction system that leverages multimodal features (images + user interaction history) to predict user engagement. The solution is designed for the MicroLens dataset and achieves state-of-the-art performance through a two-stage approach.
