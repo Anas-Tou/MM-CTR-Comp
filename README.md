@@ -12,8 +12,6 @@ A two-stage deep learning solution for Click-Through Rate (CTR) prediction combi
 - [Usage](#usage)
 - [Model Performance](#model-performance)
 - [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🔍 Overview
 
@@ -212,6 +210,9 @@ jupyter notebook NoteBook.ipynb
 | 3 | 0.0414 | 0.8506 | Early Stop |
 | 4 | 0.0288 | 0.8908 | ✓ |
 | 5 | 0.0261 | **0.8924** | Best |
+
+### Comp Result
+<img width="1627" height="75" alt="image" src="https://github.com/user-attachments/assets/977bbd7b-7c5d-4de5-9890-c66085b1bb6d" />
 
 ### Training Time
 - **CLIP Embedding Generation:** ~11 minutes (91K images, Dual T4)
